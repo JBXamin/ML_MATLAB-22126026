@@ -1,0 +1,10 @@
+R = 26;
+theta = linspace(0, 2*pi, 100);
+x = R * cos(theta);
+y = R * sin(theta);
+plot(x, y);
+title('Jitesh Bansal - 2D Circle');
+xlabel('x');
+ylabel('y');
+axis equal;
+grid on;

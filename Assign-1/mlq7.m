@@ -1,0 +1,12 @@
+R = 26;
+theta = linspace(0, 2*pi, 100);
+x = R * cos(theta);
+y = R * sin(theta);
+z = zeros(size(theta));
+plot3(x, y, z);
+title('Jitesh Bansal - 3D Circle');
+xlabel('x');
+ylabel('y');
+zlabel('z');
+axis equal;
+grid on;

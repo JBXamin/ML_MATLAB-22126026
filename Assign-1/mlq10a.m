@@ -1,0 +1,10 @@
+fig1 = imread('fig1.png');
+fig2 = imresize(fig1, 0.5);
+imwrite(fig2, 'fig2.png');
+figure;
+subplot(1, 2, 1);
+imshow(fig1);
+title('Original Image (fig1)');
+subplot(1, 2, 2);
+imshow(fig2);
+title('Resized Image (fig2)');
